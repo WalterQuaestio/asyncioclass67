@@ -20,3 +20,4 @@ if __name__ == "__main__":
     logging.info("Main   :wait for the thread to finish")
     x.join()
     logging.info("Main : all done")
+    # When you create a Thread, you pass it a function and a list containing the arguments to that function
