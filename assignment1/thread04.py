@@ -1,8 +1,5 @@
 # extending the Thread class and return values
-<<<<<<< HEAD
-=======
 # extending the Thread class and return values
->>>>>>> 75d0705d5d8523cc369aa85ede9b4deb8668db5a
 from time import sleep, ctime
 from threading import Thread
 
