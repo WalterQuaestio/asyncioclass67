@@ -24,8 +24,4 @@ if __name__ == '__main__':
     with concurrent.futures.ThreadPoolExecutor(max_workers=2)as exeutor:
         for index in range(2):
             exeutor.submit(database.update, index)
-<<<<<<< HEAD
     logging.info("Testing update. Ending value is %d", database.value)
-=======
-    logging.info("Testing update. Ending value is %d", database.value)
->>>>>>> 75d0705d5d8523cc369aa85ede9b4deb8668db5a
